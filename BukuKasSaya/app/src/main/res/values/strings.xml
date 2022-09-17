@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Buku Kas Saya</string>
+    <string name="namaApp">KasKu</string>
+    <string name="tanggal">Tanggal:</string>
+    <string name="nominal">Nominal:</string>
+    <string name="keterangan">Keterangan:</string>
+    <string name="inputTanggal">Tanggal</string>
+    <string name="inputNominal">Masukkan nominal</string>
+    <string name="inputKeterangan">Keterangan</string>
+    <string name="simpan">Simpan</string>
+    <string name="kembali">Kembali</string>
+    <string name="gantiPass"><u>Ganti Password</u></string>
+    <string name="currentPass">Password Saat Ini</string>
+    <string name="newPass">Password Baru</string>
+    <string name="ketProfil">Aplikasi ini dibuat oleh:\n\n Nama: M. Ferry Julyo \n NIM: 1941723008 \n Tanggal: 15-09-2022</string>
+    <string name="simbolPlus">[+] Rp.</string>
+    <string name="simbolMinus">[-] Rp.</string>
+</resources>

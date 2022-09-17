@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/rangkuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rangkuman Bulan Ini :"
+        android:textAlignment="center"
+        android:textColor="@color/mainColor"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/pengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rangkuman"
+        android:layout_marginTop="10dp"
+        android:text="Pengeluaran :"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pemasukan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pengeluaran"
+        android:text="Pemasukan :"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/cfChart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/pemasukan"
+        android:src="@drawable/logo2" />
+
+    <ImageButton
+        android:id="@+id/uangMasuk"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/pemasukan"
+        android:scaleType="centerCrop"
+        android:background="@color/white"
+        android:layout_below="@+id/cfChart"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/teksUangMasuk"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uangMasuk"
+        android:layout_marginLeft="20dp"
+        android:text="Tambah Pemasukan"
+        android:textColor="@color/mainColor"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <ImageButton
+        android:id="@+id/uangKeluar"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/pengeluaran"
+        android:scaleType="centerCrop"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/uangMasuk"
+        android:layout_below="@+id/cfChart"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:id="@+id/teksUangKeluar"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uangKeluar"
+        android:layout_toRightOf="@+id/teksUangMasuk"
+        android:layout_marginLeft="50dp"
+        android:text="Tambah Pengeluaran"
+        android:textColor="@color/mainColor"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <ImageButton
+        android:id="@+id/cashFlow"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/cash_flow"
+        android:scaleType="centerCrop"
+        android:background="@color/white"
+        android:layout_below="@+id/teksUangMasuk"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/teksCashFlow"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cashFlow"
+        android:layout_marginLeft="20dp"
+        android:text="Detail Cash Flow"
+        android:textColor="@color/mainColor"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <ImageButton
+        android:id="@+id/pengaturan"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/pengaturan"
+        android:scaleType="centerCrop"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/cashFlow"
+        android:layout_below="@+id/teksUangKeluar"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:id="@+id/teksPengaturan"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pengaturan"
+        android:layout_toRightOf="@+id/teksCashFlow"
+        android:layout_marginLeft="50dp"
+        android:text="Pengaturan"
+        android:textColor="@color/mainColor"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

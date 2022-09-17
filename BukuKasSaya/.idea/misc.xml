@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/drawable/ic_launcher_background.xml" value="0.129" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_cash_flow.xml" value="0.2" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_home.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_homepage.xml" value="0.22" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_looping.xml" value="0.209375" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_pemasukan.xml" value="0.33" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_pemasukan2.xml" value="0.11822916666666666" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_pengeluaran.xml" value="0.18" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/activity_splashscreen.xml" value="0.18" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/cashflow.xml" value="0.22" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/homepage.xml" value="0.1" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/layout/recycler.xml" value="0.1" />
+        <entry key="..\:/Users/ferry/Documents/GitHub/Mobile_3D_19/src/BukuKasSaya/app/src/main/res/xml/string.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

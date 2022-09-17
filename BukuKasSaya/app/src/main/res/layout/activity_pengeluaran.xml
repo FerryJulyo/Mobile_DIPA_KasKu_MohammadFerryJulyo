@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/teksTambahPengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Pengeluaran"
+        android:textColor="@color/redDrop"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/teksTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tanggal"
+        android:textColor="@color/mainColor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/teksTambahPengeluaran"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/tanggal"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teksTanggal"
+        android:layout_marginTop="5dp"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="@string/inputTanggal"
+        android:minHeight="48dp"
+        android:textColor="@color/mainColor"/>
+
+    <ImageButton
+        android:id="@+id/gmbrTanggal"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/teksTanggal"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@+id/tanggal"
+        android:scaleType="centerCrop"
+        android:background="@color/white"
+        android:src="@drawable/tanggal"/>
+
+    <TextView
+        android:id="@+id/teksNominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nominal"
+        android:textColor="@color/mainColor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tanggal"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/nominal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teksNominal"
+        android:hint="@string/inputNominal"
+        android:minHeight="48dp"
+        android:textColor="@color/mainColor"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/teksKeterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nominal"
+        android:layout_marginTop="30dp"
+        android:text="@string/keterangan"
+        android:textColor="@color/mainColor"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teksKeterangan"
+        android:hint="@string/inputKeterangan"
+        android:minHeight="48dp"
+        android:textColor="@color/mainColor"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnSimpan"
+        android:text="@string/simpan"
+        android:backgroundTint="@color/mainColor"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/keterangan"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnKembali"
+        android:text="@string/kembali"
+        android:backgroundTint="@color/redDrop"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btnSimpan"
+        android:minHeight="48dp"/>
+
+</RelativeLayout>
